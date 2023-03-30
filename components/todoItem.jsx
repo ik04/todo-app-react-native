@@ -11,10 +11,11 @@ export default function TodoItem({ item, pressHandler }) {
 
 const styles = StyleSheet.create({
   item: {
+    color: "white",
     padding: 16,
     marginTop: 16,
     borderWidth: 1,
-    borderColor: "#bbb",
+    borderColor: "purple",
     borderStyle: "dashed",
     borderRadius: 10,
   },
